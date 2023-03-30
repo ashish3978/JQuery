@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="stylesheet" href="./CSS/utilities.css">
+    <link rel="stylesheet" href="./CSS/fonts.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="stylesheet" href="./JS/custom.js">
+    <link rel="icon" href="./Images/yummy-smile-typhography-vector-design_387989-532.avif">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="./JS/jquery-3.6.3.min.js"></script>
+
+        <title>Yummy</title>
+</head>
+<body>
+    <!-- <div class="loader">    
+        <span class="loader-in"></span>
+    </div> -->
+        <button class="top-btn" onclick="getontop()"><i class="fa-solid fa-arrow-up"></i></button>
+        <!------------------------- header start -------------------------------------->
+<header class="header">
+    <div class="container">
+        <div class="row justify-between">
+            <div>
+                <h1>Yummy<span>.</span></h1>
+            </div>
+            <div>
+                <ul class="row navbar" type="none">
+                    <li><a href="#">Home</a></li>
+                    <li><a id="a" href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Chefs</a></li>
+                    <li><a href="#">Gallary</a></li>
+                    <div class="drop-down-container">
+                        <li><a href="#">Drop Down <i class="fa-solid fa-angle-down"></i></a></li>
+                        <div>
+                            <ul class="drop-down" type="none">
+                                <li><a href="#" class="navlink">Drop Down 1</a></li>
+                                <div class="deep-container">
+                                    <li><a href="#" class="navlink">Deep Drop Down <i class="fa-solid fa-angle-down"></i></a></li>
+                                    <div>
+                                        <ul class="deep-drop-down" type="none">
+                                            <li><a href="#" class="navlink">Deep Drop Down 1</a></li>
+                                            <li><a href="#" class="navlink">Deep Drop Down 2</a></li>
+                                            <li><a href="#" class="navlink">Deep Drop Down 3</a></li>
+                                            <li><a href="#" class="navlink">Deep Drop Down 4</a></li>
+                                            <li><a href="#" class="navlink">Deep Drop Down 5</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <li><a href="#" class="navlink">Drop Down 2</a></li>
+                                <li><a href="#" class="navlink">Drop Down 3</a></li>
+                                <li><a href="#" class="navlink">Drop Down 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="btnn">
+                <button class="book-table">
+                    Book a Table
+                </button>
+            </div>
+            <div class="header-toggle"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </div>
+</header>
+    <!------------------------- header over -------------------------------------->
+    <!------------------------- section-1 start -------------------------------------->
+    <section class="section-1">
+        <div class="container row justify-between">
+            <div class="sec-1-content text-center md-12">
+                <h2 class="wow animate__slideInUp">Enjoy Your Healthy<br>
+                    Delicious Food
+                </h2>
+                <p class="font-open-sans wow animate__slideInUp">Sed autem laudantium dolores. Voluptatem itaque ea consequatur <br>eveniet. Eum quas beatae cumque eum quaerat.</p>
+                <div class="sec-1-btns d-flex content-center md-12 wow animate__slideInUp">
+                    <button>Book a Table</button>
+                    <div class="watch-video">
+                        <a href="https://youtu.be/LXb3EKWsInQ">
+                            <i class="fa-regular fa-circle-play font-red"></i>
+                            <span>Watch Video</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <div class="content-center md-12 wow animate__zoomIn"><img src="./Images/hero-img.png" class="sec-1-img" alt=""></div>
+        </div>
+    </section>
+    <!------------------------- section-1 over -------------------------------------->
+    <div id="particles-js">
+        <h1><img class="particle-img" src="./Images/1677002488175.png"> Yummy</h1>
+    </div>
+    <!------------------------- section-2 start -------------------------------------->
+    <section class="section-2">
+        <div class="container">
+            <div class="sec-2-header wow animate__slideInUp">
+                <h5>ABOUT US</h5>
+                <p>LEARN MORE <span>ABOUT US</span></p>
+            </div>
+            <div class="row content-center">
+                <div class="sec-2-img justify-between wow animate__slideInUp">
+                    <div class="position-absolute">
+                        <h4>Book a Table</h4>
+                        <p>+1 5589 55488 55</p>
+                    </div>
+                </div>
+                <div class="sec-2-con wow animate__slideInUp">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <ul type="none">
+                        <li><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        <li><i class="fa-solid fa-check-double"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                        <li><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                    </ul>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                    <img src="./Images/about-2.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------- section-2 over -------------------------------------->
+        <!------------------------- section-3 start -------------------------------------->
+    <section class="section-3">
+        <div class="container row dis-flex content-center">
+            <div class="why-choose-yummy content-cente wow animate__slideInUp">
+                <h3>Why Choose Yummy?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                <div class="d-flex justify-center"><button class="learn-more-btn">Learn More</button></div>
+            </div>
+            <div class="row content-center">
+                <div class="sec-3-boxes md-12 xs-9 wow animate__slideInUp">
+                    <div><i class="fa-solid fa-clipboard-list"></i></div>
+                    <h4>Corporis voluptates officia eiusmod</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+                <div class="sec-3-boxes md-12 xs-9 wow animate__slideInUp">
+                    <div><i class="fa-solid fa-gem"></i></div>
+                    <h4>Ullamco laboris ladore pan</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+                <div class="sec-3-boxes md-12 xs-9 wow animate__slideInUp">
+                    <div><i class="fa-solid fa-inbox"></i></div>
+                    <h4>Labore consequatur incidid dolore</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!------------------------- section-3 over -------------------------------------->
+        <!------------------------- section-4 start -------------------------------------->
+    <section>
+        <div class="transparant-banner">
+            <div class="container row justify-between content-center wow animate__zoomIn">
+                <div class="counter md-6 sm-12">
+                    <span id="num1">232</span>
+                    <p>Clients</p>
+                </div>
+                <div class="counter md-6 sm-12">
+                    <span id="num2">521</span>
+                    <p>Projects</p>
+                </div>
+                <div class="counter md-6 sm-12">
+                    <span id="num3">1453</span>
+                    <p>Hours Of Support</p>
+                </div>
+                <div class="counter md-6 sm-12">
+                    <span id="num4">32</span>
+                    <p>Workers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------- section-4 over -------------------------------------->
+    <!------------------------- section-5 start -------------------------------------->
+    <section class="section-5 content-cente">
+        <div class="container">
+            <div class="sec-5-header wow animate__slideInUp">
+                <h5>OUR MENU</h5>
+                <p>CHECK OUR <span>YUMMY MENU</span></p>
+            </div>
+            <div class="">
+                <ul type="none" class="row sec-5-menu justify-center wow animate__slideInUp">
+                    <li>Starters</li>
+                    <li>Breakfast</li>
+                    <li>Lunch</li>
+                    <li>Dinner</li>
+                </ul>
+                <div class="sec-5-menu-1 wow animate__slideInUp">
+                    <h5>MENU</h5>
+                    <h3>Starters</h3>
+                </div>
+                <div class="row justify-between wow animate__slideInUp">
+                    <div class="starter-menu-items md-6 sm-12">
+                        <img src="./Images/menu-item-1.png" alt="">
+                        <h4>Magnam Tiste</h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <p>$5.95</p>
+                    </div>
+                    <div class="starter-menu-items md-6 sm-12">
+                        <img src="./Images/menu-item-2.png" alt="">
+                        <h4>Aut Luia</h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <p>$14.95</p>
+                    </div>
+                    <div class="starter-menu-items md-6 sm-12">
+                        <img src="./Images/menu-item-3.png" alt="">
+                        <h4>Est Eligendi</h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <p>$8.95</p>
+                    </div>
+                    <div class="starter-menu-items md-6 sm-12">
+                        <img src="./Images/menu-item-4.png" alt="">
+                        <h4>Eos Luibusdam</h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <p>$12.95</p>
+                    </div>
+                    <div class="starter-menu-items md-6 sm-12">
+                        <img src="./Images/menu-item-5.png" alt="">
+                        <h4>Eos Luibusdam</h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <p>$12.95</p>
+                    </div>
+                    <div class="starter-menu-items md-6 sm-12">
+                        <img src="./Images/menu-item-6.png" alt="">
+                        <h4>Laboriosam Direva</h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <p>$9.95</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------- section-5 over -------------------------------------->
+    <!------------------------- section-6 start -------------------------------------->
+    <section class="section-6">
+        <div class="container">
+            <div class="sec-6-header wow animate__slideInUp">
+                <h5>TESTIMONIALS</h5>
+                <p>What Are They <span>Saying About Us</span></p>
+            </div>
+            <section class="lazy slider wow animate__slideInUp">
+                <div>
+                    <div class="row justify-center">
+                        <div class="sec-6-con">
+                            <p>
+                                <i class="fa-solid fa-quote-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <i class="fa-solid fa-quote-right"></i>
+                            </p>
+                            <h3>Saul Goodman</h3>
+                            <h4>Ceo & Founder</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="sec-6-img">
+                            <img src="./Images/testimonials-1.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row justify-center">
+                        <div class="sec-6-con">
+                            <p>
+                                <i class="fa-solid fa-quote-left"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa. <i class="fa-solid fa-quote-right"></i>
+                            </p>
+                            <h3>Sara Wilsson</h3>
+                            <h4>Designer</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="sec-6-img">
+                            <img src="./Images/testimonials-2.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row justify-center">
+                        <div class="sec-6-con">
+                            <p>
+                                <i class="fa-solid fa-quote-left"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. <i class="fa-solid fa-quote-right"></i>
+                            </p>
+                            <h3>Jena Karlis</h3>
+                            <h4>Store Owner</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="sec-6-img">
+                            <img src="./Images/testimonials-3.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row justify-center">
+                        <div class="sec-6-con">
+                            <p>
+                                <i class="fa-solid fa-quote-left"></i> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. <i class="fa-solid fa-quote-right"></i>
+                            </p>
+                            <h3>John Larson</h3>
+                            <h4>Entrepreneur</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="sec-6-img">
+                            <img src="./Images/testimonials-4.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+              </section>
+        </div>
+    </section>
+    <!------------------------- section-6 over -------------------------------------->
+    <!------------------------- section-7 start -------------------------------------->
+    <section class="section-7">
+        <div class="container">
+            <div class="sec-7-header wow animate__slideInUp">
+                <h5>EVENTS</h5>
+                <p>Share <span>Your Moments</span> In Our Restaurant</p>
+            </div>
+        </div>
+        <div class="swiper mySwiper ">
+            <div class="swiper-wrapper  sm-6 xs-10">
+                <div class="swiper-slide xl-12">
+                    <div class="events-img-1">
+                        <div>
+                            <h3>Custom Parties</h3>
+                            <p>$99</p>
+                            <p> Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide xl-12">
+                    <div class="events-img-2">
+                        <div>
+                            <h3>Private Parties</h3>
+                            <p>$289</p>
+                            <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="events-img-3">
+                        <div>
+                            <h3>Birthday Parties</h3>
+                            <p>$499</p>
+                            <p>  Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+</section> 
+
+    <!------------------------- section-8 start -------------------------------------->
+    <section class="section-8">
+        <div class="container">
+            <div class="sec-8-header wow animate__slideInUp">
+                <h5>CHEFS</h5>
+                <p>Our<span> proffesional </span>chefs</p>
+            </div>
+            <div class="row content-center">
+                <div class="chefs-img-1 sm-6 xs-10 wow animate__slideInUp">
+                    <img src="./Images/chefs-1.jpeg" alt="">
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="chef-1-con">
+                        <h4>Walter White</h4>
+                        <h6>Master Chef</h6>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                    </div>
+                </div>
+                <div class="chefs-img-2 sm-6 xs-10 wow animate__slideInUp">
+                    <img src="./Images/chefs-2.jpeg" alt="">
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="chef-2-con">
+                        <h4>Sarah Jhonson</h4>
+                        <h6>Patissier</h6>
+                        <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                    </div>
+                </div>
+                <div class="chefs-img-3 sm-6 xs-10 wow animate__slideInUp">
+                    <img src="./Images/chefs-3.jpeg" alt="">
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="chef-3-con">
+                        <h4>William Anderson</h4>
+                        <h6>Cook</h6>
+                        <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------- section-8 over -------------------------------------->
+    <!------------------------- section-9 start -------------------------------------->
+    <section class="section-9 md-12">
+        <div class="container content-cente text-center">
+            <div class="sec-9-header wow animate__slideInUp">
+                <h5>BOOK A TABLE</h5>
+                <p>BOOK <span>YOUR STAY</span> WITH US</p>
+            </div>
+            <div class="row content-center">
+                <div class="table-booking wow animate__zoomIn"><img src="./Images/reservation.jpeg" alt=""></div>
+                <div class="booking-form wow animate__slideInUp">
+                    <form class="wow animate__slideInUp">
+                        <div class="row justify-between">
+                            <div class="md-6 xs-12"><input type="text" name="" id="" placeholder="Your Name"></div>
+                            <div class="md-6 xs-12 "><input type="text" name="" id="" placeholder="Your Email"></div>
+                            <div class="md-6 xs-12"><input type="text" name="" id="" placeholder="Your Phone"></div>
+                            <div class="md-6 xs-12"><input type="text" name="" id="" placeholder="Date"></div>
+                            <div class="md-6 xs-12"><input type="text" name="" id="" placeholder="Time"></div>
+                            <div class="md-6 xs-12"><input type="text" name="" id="" placeholder="# of people"></div>
+                        </div>
+                        <textarea class="wi-100 width-50 w-90" name="" id="" cols="100" rows="7" placeholder="Message"></textarea>
+                    </form>
+                    <div class="text-align"><input type="button" value="Book a Table"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------- section-9 over -------------------------------------->
+    <!------------------------- section-10 start -------------------------------------->
+    <section class="section-10">
+        <div class="container">
+            <div class="sec-10-header wow animate__slideInUp">
+                <h5>GALLARY</h5>
+                <p>CHECK <span>OUR GALLARY</span></p>
+            </div>
+            
+            <section class="center slider">
+                <div class="grid-item">
+                    <a data-fancybox="gallery" href="./Images/gallery-1.jpeg"><img src="./Images/gallery-1.jpeg"></a>
+                </div>
+                <div class="grid-item">
+                    <a data-fancybox="gallery" href="./Images/gallery-2.jpeg"><img src="./Images/gallery-2.jpeg"></a>
+                </div>
+                <div class="grid-item">
+                    <a data-fancybox="gallery" href="./Images/gallery-3.jpeg"><img src="./Images/gallery-3.jpeg"></a>
+                </div>
+                <div class="grid-item">
+                    <a data-fancybox="gallery" href="./Images/gallery-4.jpeg"><img src="./Images/gallery-4.jpeg"></a>
+                </div>
+                <div class="grid-item">
+                    <a data-fancybox="gallery" href="./Images/gallery-5.jpeg"><img src="./Images/gallery-5.jpeg"></a>
+                </div>
+                <div class="grid-item">
+                    <a data-fancybox="gallery" href="./Images/gallery-6.jpeg"><img src="./Images/gallery-6.jpeg"></a>
+                </div>
+                <div class="grid-item">
+                    <a data-fancybox="gallery" href="./Images/gallery-7.jpeg"><img src="./Images/gallery-7.jpeg"></a>
+                </div>
+                <div class="grid-item">
+                    <a data-fancybox="gallery" href="./Images/gallery-8.jpeg"><img src="./Images/gallery-8.jpeg"></a>
+                </div>
+                  
+              </section>
+        </div>
+    </section>
+    <!------------------------- section-10 over -------------------------------------->
+    <!------------------------- section-11 start -------------------------------------->
+    <section class="section-11">
+        <div class="container">
+            <div class="sec-11-header wow animate__slideInUp">
+                <h5>CONTACT</h5>
+                <p>NEED HELP? <span>CONTACT US</span></p>
+            </div>
+            <iframe class="wow animate__slideInUp" width="100%" height="356px" id="gmap_canvas" src="https://maps.google.com/maps?q=downtown%20conference%20center,%20new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></iframe>
+            <div class="row content-cente justify-between wow animate__slideInUp">
+                <div class="our-address row align-items lg-5 md-12 xs-12">
+                    <div class="map-icon">
+                        <i class="fa-regular fa-map"></i>
+                    </div>
+                    <div>
+                        <h3 class="mb-5">Our Address</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+                <div class="email-us row align-items lg-5 md-12 xs-12">
+                    <div class="email-icon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3 class="mb-5">Email Us</h3>
+                        <p>contact@example.com</p>
+                    </div>
+                </div>
+                <div class="call-us row align-items lg-5 md-12 xs-12">
+                    <div class="call-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <h3 class="mb-5">Our Address</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+                <div class="opening-hours row align-items lg-5 md-12 xs-12">
+                    <div class="share-icon">
+                        <i class="fa-regular fa-map"></i></div>
+                    <div>
+                        <h3 class="mb-5">Our Address</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!------------------------- section-11 over -------------------------------------->
+    <!------------------------- Footer start -------------------------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-between">
+                <div class="footer-menus row md-6 xs-6">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>A108 Adam Street<br>
+                            New York, NY 535022 - US</p>
+                    </div>
+                </div>
+                <div class="footer-menus row md-6 xs-6">
+                    <i class="fa-solid fa-phone"></i></i>
+                    <div>
+                        <h4>Reservations</h4>
+                        <p><b>Phone:</b> +1 5589 55488 55<br>
+                            <b>Email:</b> info@example.com</p>
+                    </div>
+                </div>
+                <div class="footer-menus row md-6 xs-6">
+                    <i class="fa-regular fa-clock"></i>
+                    <div>
+                        <h4>Opening Hours</h4>
+                        <p><b>Mon-Sat: 11AM</b> - 23PM<br>
+                            Sunday: Closed</p>
+                    </div>
+                </div>
+                <div class="footer-menus row md-6 xs-6">
+                    <div>
+                        <h4>Follow Us</h4>
+                        <div class="footer-icons">
+                            <a href="#" class="social-media"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="social-media"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="social-media"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-media"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="copyright-line">
+                        <p>© Copyright <b>Yummy</b>. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    <!------------------------- Footer over -------------------------------------->
+    <script src="./slick/slick.js?v2022" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script src="./JS/custom.js"></script>
+    <script src="res/countMe/countMe.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="./Particle JS/particles.js"></script>
+    <script src="./Particle JS/app.js"></script>
+<!-----------------------------------------------Wow JS---------------------------------------------->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    wow = new WOW(
+    {
+    boxClass:     'wow',      // default
+    animateClass: 'animate__animated', // default
+    offset:       10,          // default
+    mobile:       true,       // default
+    live:         true        // default
+    }
+    )
+    wow.init();
+</script>
+
+</body>
+</html>
