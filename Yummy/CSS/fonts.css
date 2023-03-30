@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'inter';
+    src: url(../Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: 'amatic SC';
+    src: url(../Fonts/Amatic_SC/AmaticSC-Regular.ttf);
+}
+@font-face {
+    font-family: 'Open-sans';
+    src: url(../Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'Open-sans-italic';
+    src: url(../Fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'kaushan';
+    src: url(../Fonts/Kaushan_Script/KaushanScript-Regular.ttf);
+}
